@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2CB1781DE30C6F00617FDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B2CB1771DE30C6F00617FDB /* GoogleService-Info.plist */; };
+		2B2CB17B1DE32A4700617FDB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CB17A1DE32A4700617FDB /* TestViewController.swift */; };
 		2B6FDB481DE20F1600EAB74E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FDB471DE20F1600EAB74E /* AppDelegate.swift */; };
 		2B6FDB4A1DE20F1600EAB74E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FDB491DE20F1600EAB74E /* ViewController.swift */; };
 		2B6FDB4D1DE20F1600EAB74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FDB4B1DE20F1600EAB74E /* Main.storyboard */; };
 		2B6FDB4F1DE20F1600EAB74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FDB4E1DE20F1600EAB74E /* Assets.xcassets */; };
 		2B6FDB521DE20F1600EAB74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6FDB501DE20F1600EAB74E /* LaunchScreen.storyboard */; };
+		2B8014921DE2135600DB0D41 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8014911DE2135600DB0D41 /* YPDrawSignatureView.swift */; };
+		DA92870B769B65B9B52FA570 /* libPods-Signature.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B661CEE6304E1F937E2451 /* libPods-Signature.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E94847F708CBF4A3D803867 /* Pods-Signature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signature.release.xcconfig"; path = "Pods/Target Support Files/Pods-Signature/Pods-Signature.release.xcconfig"; sourceTree = "<group>"; };
+		2B2CB1771DE30C6F00617FDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B2CB1791DE30DBD00617FDB /* Signature-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Signature-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B2CB17A1DE32A4700617FDB /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		2B6FDB441DE20F1500EAB74E /* Signature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6FDB471DE20F1600EAB74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B6FDB491DE20F1600EAB74E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,9 @@
 		2B6FDB4E1DE20F1600EAB74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B6FDB511DE20F1600EAB74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B6FDB531DE20F1600EAB74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8014911DE2135600DB0D41 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		CC792ABC9996B3923B451654 /* Pods-Signature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signature.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Signature/Pods-Signature.debug.xcconfig"; sourceTree = "<group>"; };
+		D1B661CEE6304E1F937E2451 /* libPods-Signature.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Signature.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA92870B769B65B9B52FA570 /* libPods-Signature.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,8 @@
 			children = (
 				2B6FDB461DE20F1500EAB74E /* Signature */,
 				2B6FDB451DE20F1500EAB74E /* Products */,
+				E3BA83F675D552BC4B229DA0 /* Pods */,
+				E9901D2A11B832B8E09D5448 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +70,33 @@
 			children = (
 				2B6FDB471DE20F1600EAB74E /* AppDelegate.swift */,
 				2B6FDB491DE20F1600EAB74E /* ViewController.swift */,
+				2B2CB17A1DE32A4700617FDB /* TestViewController.swift */,
+				2B8014911DE2135600DB0D41 /* YPDrawSignatureView.swift */,
+				2B2CB1771DE30C6F00617FDB /* GoogleService-Info.plist */,
+				2B2CB1791DE30DBD00617FDB /* Signature-Bridging-Header.h */,
 				2B6FDB4B1DE20F1600EAB74E /* Main.storyboard */,
 				2B6FDB4E1DE20F1600EAB74E /* Assets.xcassets */,
 				2B6FDB501DE20F1600EAB74E /* LaunchScreen.storyboard */,
 				2B6FDB531DE20F1600EAB74E /* Info.plist */,
 			);
 			path = Signature;
+			sourceTree = "<group>";
+		};
+		E3BA83F675D552BC4B229DA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC792ABC9996B3923B451654 /* Pods-Signature.debug.xcconfig */,
+				1E94847F708CBF4A3D803867 /* Pods-Signature.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9901D2A11B832B8E09D5448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1B661CEE6304E1F937E2451 /* libPods-Signature.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B6FDB561DE20F1600EAB74E /* Build configuration list for PBXNativeTarget "Signature" */;
 			buildPhases = (
+				D5207C4396EA0F5301E38C00 /* [CP] Check Pods Manifest.lock */,
 				2B6FDB401DE20F1500EAB74E /* Sources */,
 				2B6FDB411DE20F1500EAB74E /* Frameworks */,
 				2B6FDB421DE20F1500EAB74E /* Resources */,
+				D4369BB61B34FD8233930C42 /* [CP] Embed Pods Frameworks */,
+				F892C9C592D3ABC32BAE76E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +164,60 @@
 			files = (
 				2B6FDB521DE20F1600EAB74E /* LaunchScreen.storyboard in Resources */,
 				2B6FDB4F1DE20F1600EAB74E /* Assets.xcassets in Resources */,
+				2B2CB1781DE30C6F00617FDB /* GoogleService-Info.plist in Resources */,
 				2B6FDB4D1DE20F1600EAB74E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4369BB61B34FD8233930C42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signature/Pods-Signature-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5207C4396EA0F5301E38C00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F892C9C592D3ABC32BAE76E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signature/Pods-Signature-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B6FDB401DE20F1500EAB74E /* Sources */ = {
@@ -139,6 +226,8 @@
 			files = (
 				2B6FDB4A1DE20F1600EAB74E /* ViewController.swift in Sources */,
 				2B6FDB481DE20F1600EAB74E /* AppDelegate.swift in Sources */,
+				2B2CB17B1DE32A4700617FDB /* TestViewController.swift in Sources */,
+				2B8014921DE2135600DB0D41 /* YPDrawSignatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +346,32 @@
 		};
 		2B6FDB571DE20F1600EAB74E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC792ABC9996B3923B451654 /* Pods-Signature.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75RQ64B2DZ;
 				INFOPLIST_FILE = Signature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = f.astitou.Signature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Signature/Signature-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2B6FDB581DE20F1600EAB74E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E94847F708CBF4A3D803867 /* Pods-Signature.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 75RQ64B2DZ;
 				INFOPLIST_FILE = Signature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = f.astitou.Signature;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Signature/Signature-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +395,7 @@
 				2B6FDB581DE20F1600EAB74E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
